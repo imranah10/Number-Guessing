@@ -1,0 +1,47 @@
+body {
+  background-color: azure;
+}
+.box {
+  width: 500px;
+  height: 500px;
+  border: 5px groove blue;
+  border-radius: 10px;
+  margin: 80px auto;
+  box-shadow: 0px 0px 15px 10px black inset;
+  /* padding: 15px; */
+}
+.a {
+  width: 180px;
+  height: 120px;
+  border-radius: 10px;
+  border-color: blueviolet;
+  color: blue;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  margin-left: 45px;
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px black;
+  transition: all 2s ease;
+}
+.a:hover {
+  background-color: black;
+  color: white;
+}
+#inputval {
+  color: blue;
+  /* font-size: 1.5rem; */
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.result p {
+  color: blue;
+}
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
